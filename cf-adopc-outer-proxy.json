@@ -669,6 +669,8 @@
                 "docker-compose -f compose/elk.yml up -d\n",
                 "docker-compose ${COMPOSE_OVERRIDES} ${VOLUME_OVERRIDES} pull \n",
                 "docker-compose ${COMPOSE_OVERRIDES} ${VOLUME_OVERRIDES} up -d\n",
+                "chmod +x load-platform.sh\n",
+                "./load-platform.sh\n",
                 "sleep 10\n",
                 "OUTER_PROXY_INTERNAL_IP=",
                 {

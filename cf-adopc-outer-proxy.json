@@ -565,7 +565,7 @@
                 "\n",
                 "export TARGET_HOST=${IP}\n",
                 "export LOGSTASH_HOST=${IP}\n",
-                "export CUSTOM_NETWORK_NAME=adop-network\n",
+                "export CUSTOM_NETWORK_NAME=adopnetwork\n",
                 "export ADOP_SMTP_ENABLED=true\n",
                 "export JENKINS_TOKEN=gAsuE35s\n",
                 "export AWS_DEFAULT_REGION=",

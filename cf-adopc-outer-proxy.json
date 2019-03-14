@@ -72,7 +72,7 @@
         "Fn::Join": [
           "",
           [
-            "http://",
+            "",
             {
               "Fn::GetAtt": [
                 "OuterProxyEC2",
@@ -89,7 +89,7 @@
         "Fn::Join": [
           "",
           [
-            "http://",
+            "",
             {
               "Fn::GetAtt": [
                 "OuterProxyEC2",
